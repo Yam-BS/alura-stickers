@@ -5,3 +5,11 @@
 </p>
 
 <p>Na primeira aula, o desafio foi construir uma aplicação do zero para consumir a API do IMDb (ou similar) e exibir os filmes mais populares, destacando seus pôsteres e visualizando sua classificação... Tudo isso sem usar nenhuma biblioteca externa!</p>
+
+<div align="center">
+  <img alt="Exemplo de saída no terminal" src="https://user-images.githubusercontent.com/90811498/179649506-9a929ddf-5575-4c9d-8727-41ac50cbef48.png"/>
+</div>
+<div align="center">
+  <p>Saída do código no terminal</p>
+</div>
+
