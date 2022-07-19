@@ -22,5 +22,5 @@
 </ul>
 
 <h2>&#x1F4C1 Acesso ao projeto</h2>
-<p>Você pode <a href="#">acessar o código-fonte do projeto</a> ou <a href="#p">baixá-lo</a></p>
+<p>Você pode <a href="https://github.com/Yam-BS/alura-stickers/tree/master/src">acessar o código-fonte do projeto</a> ou <a href="https://github.com/Yam-BS/alura-stickers/archive/refs/heads/master.zip">baixá-lo</a></p>
 
