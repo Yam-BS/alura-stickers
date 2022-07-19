@@ -4,7 +4,7 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Yam-BS/alura-stickers">
 </p>
 
-<p>O objetivo do projeto é construir uma aplicação do zero para consumir a API do IMDb (ou similar) e exibir os filmes mais populares, destacando seus pôsteres e visualizando sua classificação. Além disso, o pôster de cada filme será transformado em figurinhas de Whatsapp.</p>
+<p>O objetivo do projeto é construir uma aplicação do zero para consumir a API do IMDb (ou similar) e exibir os filmes mais populares, destacando seus pôsteres e visualizando sua classificação. Além disso, o pôster de cada filme será transformado em figurinha de Whatsapp.</p>
 
 <div align="center">
   <img width="900px" alt="Exemplo de saída no terminal" src="https://user-images.githubusercontent.com/90811498/179649506-9a929ddf-5575-4c9d-8727-41ac50cbef48.png"/>
