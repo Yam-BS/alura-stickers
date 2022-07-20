@@ -1,4 +1,6 @@
+import java.io.InputStream;
 import java.net.URI;
+import java.net.URL;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
@@ -24,15 +26,22 @@ public class App {
         System.out.println("\u001b[1mTop 250 filmes IMDb\u001b[m \n");
 
         // exibir e manipular os dados
+        var geradora = new GeradoraDeFigurinhas();
         for (Map<String, String> filme : listaDeFilmes) {
-            System.out.println("\u001b[1mTítulo\u001b[m: \u001b[3m" + filme.get("title") + " " + "\u001b[m\uD83C\uDF7F");
-            System.out.println("\u001b[1mCapa\u001b[m: " + filme.get("image"));
-            System.out.println("\u001b[1mAvaliação\u001b[m: " + filme.get("imDbRating")  + "\u2B50");
+
+            String urlImagem = filme.get("image");
+            String titulo = filme.get("title");
+
+            InputStream inputStream = new URL(urlImagem).openStream();
+            String nomeArquivo = titulo + ".png";
+
+            geradora.cria(inputStream, nomeArquivo);
+
+            System.out.println("\u001b[1mTítulo\u001b[m: \u001b[3m" + titulo + " " + "\u001b[m\uD83C\uDF7F");
+//            System.out.println("\u001b[1mTítulo\u001b[m: \u001b[3m" + filme.get("title") + " " + "\u001b[m\uD83C\uDF7F");
+//            System.out.println("\u001b[1mCapa\u001b[m: " + filme.get("image"));
+//            System.out.println("\u001b[1mAvaliação\u001b[m: " + filme.get("imDbRating")  + "\u2B50");
             System.out.println();
         }
-
-
-
-
     }
 }
