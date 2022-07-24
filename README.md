@@ -13,9 +13,22 @@
 <br/>
 
 <p>Além disso, é possível pegar e editar as imagens contidas na API, transformando-as em figurinhas de Whatsapp. Veja um exemplo de figurinha gerada a partir de uma API de linguagens de programação:</p>
+
+<br/>
+
 <div align="center">
   <img alt="Exemplo de saída no terminal" src="/saida/Java.png"/>
+  <img alt="Figurinha sendo utilizada" src="/img/exemplo2.png"/>
 </div>
+
+<h2>&#x1F528 Funcionalidades do projeto</h2>
+
+<ul>
+  <li>Consumir APIs</li>
+  <li>Exibir as informações contidas nas API de forma tratada</li>
+  <li>Tranformar contidas nas APIs em figurinhas de Whatsapp</li>
+</ul>
+
 
 <h2>&#x2705 Técnicas e tecnologias utilizadas</h2>
 
