@@ -25,7 +25,7 @@
 
 <ul>
   <li>Consumir APIs</li>
-  <li>Exibir as informações contidas nas API de forma tratada</li>
+  <li>Exibir as informações contidas nas APIs de forma tratada</li>
   <li>Tranformar as imagens contidas nas APIs em figurinhas de Whatsapp</li>
 </ul>
 
