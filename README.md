@@ -21,6 +21,8 @@
   <img alt="Figurinha sendo utilizada" src="/img/exemplo2.png"/>
 </div>
 
+<p>&#x1F4A1<b>Aliás, essa API de linguagens de programação está disponível no meu repositório. Você pode acessá-la por <a href="https://github.com/Yam-BS/linguagens-api">aqui</a></b></p>
+
 <h2>&#x1F528 Funcionalidades do projeto</h2>
 
 <ul>
@@ -33,9 +35,9 @@
 <h2>&#x2705 Técnicas e tecnologias utilizadas</h2>
 
 <ul>
-  <li>Java 11</li>
-  <li>IntelliJ IDEA</li>
-  <li>Paradigma de Orientação a Objetos</li>
+  <li><i>Java 11</i></li>
+  <li><i>IntelliJ IDEA</i></li>
+  <li><i>Paradigma de Orientação a Objetos</i></li>
 </ul>
 
 <h2>&#x1F4C1 Acesso ao projeto</h2>
